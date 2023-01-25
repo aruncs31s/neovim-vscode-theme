@@ -1,3 +1,6 @@
+" originaly from https://github.com/josethz00/neovim-like-vscode with some
+" modification of mine
+
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
