@@ -30,10 +30,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## Installition 
 
 ### install script 
-
+```
 bash <(curl -L  https://raw.githubusercontent.com/aruncs31s/neovim-vscode-theme/main/install.sh)
-
-
+```
 ### Manual
 
 ```
