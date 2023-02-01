@@ -1,6 +1,10 @@
 " originaly from https://github.com/josethz00/neovim-like-vscode with some
 " modification of mine
 
+let g:coc_disable_startup_warning = 1
+
+
+
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
@@ -66,6 +70,8 @@ let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 
 
 let g:NERDTreeIgnore = ['^node_modules$']
+
+
 
 
 " to show hidden files when using nerdtree
