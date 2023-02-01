@@ -43,6 +43,18 @@ mv nvim ~/.config
 
 ```
 
+**Note:** 
+- *If you're requested to install nodejs > 14.14.0*  [check that here](https://computingforgeeks.com/install-node-js-14-on-ubuntu-debian-linux/)
+- To get full experience install these font
+       <!-- Source https://github.com/romkatv/powerlevel10k#fonts -->
+       
+    - [`MesloLGS NF Regular.ttf`](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+    - [`MesloLGS NF Bold.ttf`](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+    - [`MesloLGS NF Italic.ttf`](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+    - [`MesloLGS NF Bold Italic.ttf`](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+
+
+
 
 
 
