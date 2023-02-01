@@ -1,11 +1,6 @@
-" originaly from https://github.com/josethz00/neovim-like-vscode with some
-" modification of mine
-
+" Specify a directory for plugins
 let g:coc_disable_startup_warning = 1
 
-
-
-" Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
 Plug 'dense-analysis/ale'
@@ -24,7 +19,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'sheerun/vim-polyglot'
 Plug 'morhetz/gruvbox'
 "Plug 'rafi/awesome-vim-colorschemes'  
-"Plug 'vim-airline/vim-airline'"
+Plug 'vim-airline/vim-airline'"
 Plug 'Yggdroot/indentLine' 
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'tomasiser/vim-code-dark'
@@ -70,8 +65,6 @@ let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 
 
 let g:NERDTreeIgnore = ['^node_modules$']
-
-
 
 
 " to show hidden files when using nerdtree
@@ -254,7 +247,7 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_statusline_ontop=0
-let g:airline_theme='base16_twilight'
+let g:airline_theme='default'
 
 let g:airline#extensions#tabline#formatter = 'default'
 " navegação entre os buffers
